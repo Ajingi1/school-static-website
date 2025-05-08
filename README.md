@@ -9,7 +9,7 @@ School Static Website
 
 ![Department Page image](screenshot/department.png)
 **Description of Image 2**: This is how department page looks it have a button when you click any button the detals information about that department will appear and it will show like this in the page look at the below image. 
-![Department Model image](screenshot/'click%20details%20deparment.png')
+![Department Model image](screenshot/click%20details%20deparment.png)
 
 
 ![About Page image](screenshot/about.png)
