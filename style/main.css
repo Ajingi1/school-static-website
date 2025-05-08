@@ -1,0 +1,202 @@
+/*  Global style */
+body{
+    background: #eceeef;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+/* Make sure my layout is correct and always fotter in the bottom */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+/* Nav bar */
+.navbar-brand{
+    /* color: #000; */
+    font-weight: bolder;
+    font-size: large;
+}
+
+/* second section */
+.jumbotron{
+    background: none;
+    text-align: center;
+}
+.carousel-section{
+    margin-bottom: 20px;
+}
+
+/* senction three */
+.section-three h1{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    margin: 0px;
+}
+.section-three{
+    /* padding: 2rem; */
+    color: #000;
+    background-color: #cccccc;
+    margin: auto;
+}
+.card-body{
+    text-align: center;
+    background-color: inherit;
+}
+.card{
+    margin: auto;
+}
+.department-row div.col-md-6, .staff-row div.col-md-6{
+    padding-bottom: 1.5rem;
+}
+.dpt-btn{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
+
+/* About us styles */
+.admin-block-img{
+    display: inline-block;
+}
+
+.about-sec{
+    padding: 20px;
+}
+
+.about-sec li{
+    list-style-type: decimal;
+}
+
+
+/* department  */
+
+.card-body-department{
+    /* padding: 0px; */
+    font-weight: bold;   
+}
+.btn-modal{
+    margin-bottom: 15px;
+}
+
+.modal-body li{
+    list-style-type: number;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Contact styles */
+
+div.sign-container{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+div.sign-card{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: #f4f4f4;
+}
+.sign-img{
+    padding: 0px 2rem 2rem;
+    margin: auto;
+    display: block;
+    /* width: 50%; */
+    
+}
+form.sign-form{
+    max-width: 300px;
+    margin: auto;
+}
+form.sign-form input:focus{
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+button.btn-sign{
+    color: #f4f4f4;
+    background-color: rgb(191, 67, 59);
+    width: 100%;
+}
+button.btn-sign:hover{
+    background-color: rgb(191, 67, 59);
+    color: #f4f4f4;
+}
+textarea{
+    height: 10rem;
+    resize: none;
+    text-align: left !important;
+}
+
+
+/* footer */
+footer{
+    padding-top: 2.5rem;
+    background-color: #343a40;
+    text-align: left;
+    font-size: medium;
+    color: #fff;
+}
+ul::before, div.address-list::before{
+    content: attr(data-header);
+    color: #fff;
+    font-size: 1.5rem;
+}
+footer ul, .address-list{
+    text-align: left;
+    /* float: left; */
+    /* border: 2px solid red; */
+    padding-bottom: 1rem;
+}
+.address-list{
+    padding-left: 1rem;
+}
+.address-list div{
+    padding-left: 0px;
+}
+li{
+    list-style-type: none;
+}
+footer ul li a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+footer ul li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+}
+.icon-section{
+    text-align: center;
+}
+.fa{
+    color: #fff;
+    padding: 4px;
+    margin-right: 10px;
+}
+.fa-facebook-square{
+    color: blue;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-twitter-square{
+    color: lightblue;
+}
+.Copyright{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
